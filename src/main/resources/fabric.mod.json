@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "somecrashfixes",
+  "version": "${version}",
+  "name": "SomeCrashFixes",
+  "description": "",
+  "authors": [
+    "Takaranoao"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/somecrashfixes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.takaranoao.somecrashfixes.client.SomeCrashFixesClient"
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "SomeCrashFixes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
